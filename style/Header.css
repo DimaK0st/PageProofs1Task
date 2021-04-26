@@ -1,0 +1,66 @@
+header{
+    background: #181817;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+}
+
+.headerMain{
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+    margin: auto;
+}
+
+.headerMain .headerLogo{
+    flex-basis: 200px;
+}
+
+.headerMain .headerMenu{
+    flex-basis: 100%;
+    height: 100%;
+}
+.headerMain .headerImage{
+    flex-basis: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+header ul {
+    list-style: none; /*убираем маркеры списка*/
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position:relative;
+    width: 100%;height:100%;
+    align-content: baseline;
+}
+header li{
+    display: inline-block;height:100%;
+}
+
+header a {
+    text-decoration: none; /*убираем подчеркивание текста ссылок*/
+    color: #fefefe;
+    display: flex;
+    align-items: center;
+    flex-grow: 1;width: 100%;height:100%;
+    transition: background-color .3s, filter .3s;
+    }
+section{
+    margin: 1000px;
+}
+.headerMenu a:hover{
+    box-sizing: border-box;
+    border-bottom-width: 4px; /* Толщина линии внизу */
+    border-bottom-style: solid; /* Стиль линии внизу */
+    border-bottom-color: #ffce76; /* Цвет линии внизу */
+}
+
