@@ -1,0 +1,57 @@
+.CALL_US_NOW {
+    font-size: 25px;
+    color: rgb(255, 206, 118);
+    font-weight: 600;
+    line-height: 1.2;
+    -moz-transform: matrix(1.49047175806413, 0, 0, 1.51889268773988, 0, 0);
+    -webkit-transform: matrix(1.49047175806413, 0, 0, 1.51889268773988, 0, 0);
+    -ms-transform: matrix(1.49047175806413, 0, 0, 1.51889268773988, 0, 0);
+}
+
+.Office_telephone, .Hotline {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Poppins";
+    color: rgb(255, 255, 255);
+    line-height: 1.714;
+}
+
+.Hours_work {
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    line-height: 0.7;
+    -moz-transform: matrix(1.49047175806413, 0, 0, 1.51889268773988, 0, 0);
+    -webkit-transform: matrix(1.49047175806413, 0, 0, 1.51889268773988, 0, 0);
+    -ms-transform: matrix(1.49047175806413, 0, 0, 1.51889268773988, 0, 0);
+}
+
+.Monday_Friday {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.502);
+    line-height: 1.714;
+}
+
+.Newsletter {
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    line-height: 0.7;
+    -moz-transform: matrix( 1.49047175806413,0,0,1.51889268773988,0,0);
+    -webkit-transform: matrix( 1.49047175806413,0,0,1.51889268773988,0,0);
+    -ms-transform: matrix( 1.49047175806413,0,0,1.51889268773988,0,0);
+}
+
+.Sign_up_to_ {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.502);
+    line-height: 1.286;
+}
+
+.Enter_your_email___ {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.502);
+    line-height: 1.2;
+}
+
