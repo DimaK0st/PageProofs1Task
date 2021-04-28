@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>PAHU</title>
+
     <link rel="stylesheet" href="style/MainPageStyle.css">
     <link rel="stylesheet" href="style/position.css">
     <link rel="stylesheet" href="style/fonts.css">
@@ -11,39 +12,47 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="style/Header.css">
+    <link rel="stylesheet" href="style/OurDesigner.css">
+    <link rel="stylesheet" href="style/OurProject.css">
     <link rel="stylesheet" href="style/FromOurBlog.css">
     <link rel="stylesheet" href="style/Footer.css">
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/g/jquery.owlcarousel@1.31(owl.carousel.css)">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/fontawesome/4.6.3/css/font-awesome.min.css">
+
+    <script src="https://cdn.jsdelivr.net/g/jquery@2.2.4,jquery.owlcarousel@1.31"></script>
+
 
 </head>
 
 <body>
-<header>
-    <div class="headerMain">
-        <div class="headerLogo">
-            <a href="#">
-                <img src="image/header/Logo.svg">
-            </a>
-        </div>
-        <div class="headerMenu">
-            <ul>
-                <li><a href="#blockHome">HOME</a></li>
-                <li><a href="#blockFeatures">FEATURES</a></li>
-                <li><a href="#blockShop">SHOP</a></li>
-                <li><a href="#blockBlog">BLOG</a></li>
-                <li><a href="#blockAccessories">ACCESSORIES</a></li>
-                <li><a href="#blockContact">CONTACT</a></li>
-            </ul>
+<!--<header>-->
+<!--    <div class="headerMain">-->
+<!--        <div class="headerLogo">-->
+<!--            <a href="#">-->
+<!--                <img src="image/header/Logo.svg">-->
+<!--            </a>-->
+<!--        </div>-->
+<!--        <div class="headerMenu MENU" style="font-family: 'Poppins'; " >-->
+<!--            <ul>-->
+<!--                <li><a href="#blockHome">HOME</a></li>-->
+<!--                <li><a href="#blockFeatures">FEATURES</a></li>-->
+<!--                <li><a href="#blockShop">SHOP</a></li>-->
+<!--                <li><a href="#blockBlog">BLOG</a></li>-->
+<!--                <li><a href="#blockAccessories">ACCESSORIES</a></li>-->
+<!--                <li><a href="#blockContact">CONTACT</a></li>-->
+<!--            </ul>-->
 
-        </div>
-        <div class="headerImage">
-            <a href="#"> <img src="image/header/zoom.svg"></a>
-            <a href="#"> <img src="image/header/like.svg"></a>
-            <a href="#"> <img src="image/header/basket.svg"></a>
+<!--        </div>-->
+<!--        <div class="headerImage">-->
+<!--            <a href="#"> <img src="image/header/zoom.svg"></a>-->
+<!--            <a href="#"> <img src="image/header/like.svg"></a>-->
+<!--            <a href="#"> <img src="image/header/basket.svg"></a>-->
 
-        </div>
-    </div>
-</header>
-
+<!--        </div>-->
+<!--    </div>-->
+<!--</header>-->
 
 <section id="WhyChooseUs">
 
@@ -72,6 +81,8 @@
         </div>
 
     </div>
+
+
 </section>
 <section id="OurDesigner">
 
@@ -86,7 +97,10 @@
         </div>
 
     </div>
+
 </section>
+
+
 <section id="OurProject">
 
     <div class="BlockTextCenter">
@@ -100,6 +114,48 @@
         </div>
 
     </div>
+
+        <div class="sliderCenter">
+            <div class="prod-slider-container">
+                <div class="inner-container">
+                    <div class="owl-carousel">
+
+                        <div class="item">
+                            <img src="image/OurProject/1_1.png" alt="Tuner Image">
+                        </div>
+                        <div class="item">
+                            <img src="image/OurProject/2_2.png" alt="Tuner Image">
+                        </div>
+                        <div class="item">
+                            <img src="image/OurProject/3_3.png" alt="Tuner Image">
+                        </div>
+                        <div class="item">
+                            <img src="image/OurProject/4_4.png" alt="Tuner Image">
+                        </div>
+
+                    </div>
+                    <!--.owl-carousel-->
+                </div>
+                <script>
+                    $(document).ready(function () {
+                        $('.owl-carousel').owlCarousel({
+                            items: 4,
+                            autoPlay: 3000,
+                            itemsDesktop: [1199, 3],
+                            itemsDesktopSmall: [979, 3],
+                            navigation: true,
+                            navigationText: [
+                                "<i class='fa fa-chevron-left'></i>",
+                                "<i class='fa fa-chevron-right'></i>"
+                            ]
+                        });
+                    });
+                </script>
+
+            </div>
+        </div>
+
+
 </section>
 
 <section id="FromOurBlog">
@@ -255,7 +311,7 @@
                                placeholder="Enter your email..."
                                style="font-family: 'Poppins'; margin: 0px 0 10px 0;">
                         <span class="input-group-btn">
-                            <button type="submit" class="arrow" ><span>→</span></button>
+                            <button type="submit" class="arrow"><span>→</span></button>
                         </span>
                     </div>
 

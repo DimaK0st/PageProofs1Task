@@ -1,0 +1,53 @@
+#OurProject{max-width: 1600px;
+    margin: auto;
+}
+.prod-slider-container {
+    position: relative;
+    font-family: font-awesome;
+}
+.sliderCenter{
+margin-top: 110px;
+}
+
+.owl-buttons {
+    display:flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.owl-prev, .owl-next {
+    position: absolute;
+}
+
+i.fa {
+    cursor: pointer;
+    position: absolute;
+    font-size: 60px;
+    padding-top: 8px;
+    height:64px;
+    width:72px;
+    color: #ffffff;
+    background: #848484;
+    border-radius:50%;
+    display:table-cell;
+    top		: -540px;
+}
+
+.owl-prev, .owl-next {
+    background-color:transparent;
+    border: 0px none transparent;
+    width: 0px;
+    height: 0px;
+}
+
+.owl-perv {
+    left:0;
+}
+
+.owl-next  {
+    right:72px;
+}
+
+.item {
+}
+
+

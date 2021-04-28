@@ -1,0 +1,8 @@
+#OurDesigner{
+    margin: auto;
+    width: auto;
+    height: 980px;
+    max-width: 1600px;
+    background-size: contain;
+    background: url("../image/OurDesigner/background.png") top center;
+}
