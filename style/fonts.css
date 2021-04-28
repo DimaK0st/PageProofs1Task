@@ -11,7 +11,6 @@
 .Office_telephone, .Hotline {
     font-size: 14px;
     font-weight: 400;
-    font-family: "Poppins";
     color: rgb(255, 255, 255);
     line-height: 1.714;
 }
@@ -55,3 +54,24 @@
     line-height: 1.2;
 }
 
+
+.BlockTextCenter {
+    font-size: 40px;
+    color: rgb(24, 24, 23);
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 0.475;
+}
+
+.READ_MORE {
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+}
+.BlockFromOurBlogArrayText1{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-weight: 600;}
+.BlockFromOurBlogArrayText2{
+    font-size: 14px;
+    color: rgba(49, 48, 45, 0.702);}
