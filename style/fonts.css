@@ -91,3 +91,10 @@
 .BlockFromOurBlogArrayText2{
     font-size: 14px;
     color: rgba(49, 48, 45, 0.702);}
+
+.OurDesignerFont {
+    font-size: 30px;
+    color: rgb(250, 250, 250);
+    font-weight: 600;
+
+}

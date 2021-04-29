@@ -1,8 +1,58 @@
 #OurDesigner{
+
+    padding-top: 100px;
     margin: auto;
     width: auto;
     height: 980px;
     max-width: 1600px;
     background-size: contain;
     background: url("../image/OurDesigner/background.png") top center;
+}
+
+
+.blockImageDesigner{
+    position: relative;
+}
+
+.OurDesignerArray {
+
+
+    margin: 130px auto auto auto;
+    width: auto;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.imageDesigner{
+
+    position: relative;
+    z-index: 100;
+}
+.imageGrid{
+
+    position	: absolute;
+    top: 181px;
+    right: 88px;
+    bottom: 0;
+
+    z-index: 1;
+}
+.OurDesignerArray1{
+    display: flex;
+    flex-direction: column;
+}
+
+.imageTextLine{
+
+    display: flex;
+    flex-direction: row;
+    align-content: center;align-items: center;
+}
+
+
+.imageLine{
+    margin-left: 20px;
+    width: 185px;
 }
