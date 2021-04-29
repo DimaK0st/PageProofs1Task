@@ -8,6 +8,52 @@
 
 
 
+
+
+.CORONA_CHAIR {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    line-height: 1;
+}
+.Printed_ {
+    margin-top: 20px;
+    font-size: 14px;
+    font-family: "Poppins";
+    color: rgb(109, 109, 109);
+
+    line-height: 1;
+    font-weight: 400;
+}
+
+._14_86 {
+    margin-top: 30px;
+    margin-bottom: 25px;
+    font-size: 27px;
+    font-family: "Poppins";
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    line-height: 1;
+}
+
+.NEW {
+    font-size: 16px;
+    font-weight: 600;
+    position: absolute;
+    z-index: 5;
+    width: 70px;
+    height: 30px;
+    line-height: 1;
+    color: white;
+    transform:rotate(-50deg);
+    -ms-transform:rotate(-50deg); /* IE 9 */
+    -webkit-transform:rotate(-50deg); /* Opera, Chrome, and Safari */
+}
+
+
+
+
+
 .CALL_US_NOW {
     font-size: 25px;
     color: rgb(255, 206, 118);

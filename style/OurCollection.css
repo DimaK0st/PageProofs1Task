@@ -1,0 +1,88 @@
+#OurCollection {
+    width: 1200px;
+    height: 1200px;
+    margin: 0 auto 0 auto;
+}
+
+.BlockTextCenter {
+    margin-top: 0;
+    padding-top: 100px;
+}
+.ourCollectionArray1 {
+
+    position: relative;
+    z-index: 1;
+    width: 272px;
+    background: #ffffff;
+    margin-bottom: 30px;
+
+}
+
+.ourCollectionArray {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 70px;
+}
+.invisibleBlock{
+    position: absolute;
+    z-index: 10;
+    margin-left: -10px;
+    margin-top: -15px;
+    width: 293px;
+    height: 436px;
+    background: #ffda98;
+    opacity: 0;
+    -webkit-transition: 2s ease; /* Safari and Chrome */
+    -moz-transition: 2s ease; /* Firefox 4 */
+    -o-transition: 2s ease; /* Opera */
+    box-shadow: 0 0 10px 2px #cdccc6;
+}
+.invisibleBlockSelecter{
+    width: 185px;
+    height: 60px;
+    background: #4b4f51;
+    margin: 180px 58px 200px 51px;
+
+    border-radius: 25px;
+
+}
+.selectImage{
+    position: relative;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    padding-top: 20px;
+}
+
+.invisibleBlock:hover{
+    opacity: 1;
+    transition: opacity 1s;
+
+
+}
+
+
+.imageTriangle{
+    position: relative;
+    z-index: 3;
+}
+.triangle {
+    position: absolute;
+    z-index: 4;
+    width: 0px;
+    height: 0;
+    border-top: 56px solid #ff412d;
+    border-right: 56px solid transparent;
+}
+
+.ourCollectionText {
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+}
