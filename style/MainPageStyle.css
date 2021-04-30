@@ -10,6 +10,7 @@ html{
 
 body{
 
+    max-width: 1920px;
     background: #f9fafc;
-    margin-top: 110px;
+    margin: 110px auto auto auto;
 }

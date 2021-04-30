@@ -6,6 +6,30 @@
 }
 
 
+
+.WhyChooseUsTop1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-family: "Poppins";
+    color: rgb(255, 206, 118);
+    line-height: 1;
+    font-weight: 600;
+}
+
+.WhyChooseUsLeft{
+    text-align: right;
+}
+.WhyChooseUsTop2 {
+    font-size: 14px;
+    font-family: "Poppins";
+    color: rgb(255, 255, 255);
+    line-height: 1.488;
+}
+
+
+
+
+
 .PATIO_FURNITURE_VIETNAM__ {
     font-size: 30px;
     font-family: "Poppins";

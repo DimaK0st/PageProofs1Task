@@ -1,0 +1,40 @@
+#WhyChooseUsTop{
+    width: 100%;
+    max-width: 1600px;
+    height: 750px;
+    margin: auto;
+    background: #181817;
+}
+
+.WhyChooseUsArray{
+    margin-top: 120px;
+}
+
+.WhyChooseUsArray1_1TopText, .WhyChooseUsArray1_1DownText{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.WhyChooseUsArray1_1Top, .WhyChooseUsArray1_1Down{
+    display: flex;
+    flex-direction: row;
+}
+
+.WhyChooseUsArrayMargLeft{
+    margin-left: 15px;
+}
+.WhyChooseUsArrayMargRigth{
+    margin-right: 15px;
+
+}
+
+.margText12{
+    margin-top: 65px;
+}
+
+
+.WhyChooseUsArray{
+    display: flex;
+    flex-direction: row;
+}
