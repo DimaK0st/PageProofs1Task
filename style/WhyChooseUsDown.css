@@ -1,0 +1,73 @@
+#WhyChooseUsDown{
+
+    margin: auto;
+    width: 1600px;
+    height: 670px;
+
+}
+.WhyChooseUsDownArray1{
+    position: relative;
+}
+.WhyChooseUsDownArray1_1{
+    left: 100px;
+    top: 75px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    z-index: 10;
+}
+
+
+.WhyChooseUsDownArray1_2{
+    position: relative;
+}
+
+.WhyChooseUsDownArray2_3{
+    left: 55px;
+    top: 45px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    z-index: 10;
+}
+
+.WhyChooseUsDownArray2_4{
+    left: 50px;
+    top: 50px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    z-index: 10;
+}
+
+
+
+
+
+
+
+.WhyChooseUsDownArrayTop{
+    height: 340px;
+    position: relative;
+}
+.WhyChooseUsDownArrayDown{
+    height: 330px;
+    position: relative;
+}
+.WhyChooseUsDownArray2 div{
+}
+
+.WhyChooseUsDownArray{
+    display: flex;
+    flex-direction: row;
+}
+
+.WhyChooseUsDownArray2{
+    height: 670px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: start;
+    margin: 0;
+    padding: 0;
+}
