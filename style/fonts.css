@@ -5,6 +5,23 @@
     font-weight: 600;
 }
 
+.Welcome_To_Pahu_Design {
+    margin-left: 20px;
+    font-size: 25px;
+    font-family: "Poppins";
+    color: rgb(255, 255, 255);
+    line-height: 0.76;
+}
+
+.YOU_ARE_IN_GOOD_HAND_WITH_US {
+    font-size: 60px;
+    font-family: "Poppins";
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+
 
 
 .WhyChooseUsTop1 {
