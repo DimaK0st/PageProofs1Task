@@ -24,7 +24,7 @@ footer {
 .blockFooter {
     display: flex;
     height: 440px;
-    width: 1200px;
+    max-width: 1200px;
     margin: auto;
     flex-direction: column;
     justify-content: space-between;
@@ -63,7 +63,7 @@ footer {
 }
 
 .footerInput{
-    width: 90%;
+    width: 85%;
     margin: 10px;
     padding: 15px;
     background: #181817;
