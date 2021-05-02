@@ -1,6 +1,5 @@
 #OurDesigner{
 
-    padding-top: 100px;
     margin: auto;
     width: auto;
     height: 980px;
@@ -36,7 +35,6 @@
     top: 181px;
     right: 88px;
     bottom: 0;
-
     z-index: 1;
 }
 .OurDesignerArray1{
@@ -52,8 +50,32 @@
     align-content: center;align-items: center;
 }
 
-
 .imageLine{
     margin-left: 20px;
-    width: 185px;
+    width: auto;
+    max-width: 185px;
+}
+
+
+
+@media screen and (max-width: 830px) {
+
+    .imageLine {
+        margin-left: 5px;
+    }
+    #OurDesigner{
+
+        height: auto;
+    }
+
+    .OurDesignerArray {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 50px;
+    }
+
+
 }

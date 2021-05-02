@@ -8,11 +8,12 @@ header {
 }
 
 .headerMain {
-    display: flex;
+    max-width: 1200px;
     height: 100px;
+    width: 100%;
+    display: flex;
     justify-content: center;
     align-items: center;
-    width: 1200px;
     margin: auto;
 }
 
@@ -59,7 +60,7 @@ header li {
 }
 
 section {
-    margin: 10px;
+    margin: 10px 0 10px 0;
 }
 
 .headerMenu a:hover {
