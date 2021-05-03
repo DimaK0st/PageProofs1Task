@@ -43,10 +43,6 @@
     line-height: 1.488;
 }
 
-
-
-
-
 .PATIO_FURNITURE_VIETNAM__ {
     font-size: 30px;
     font-family: "Poppins";
@@ -97,14 +93,6 @@
     line-height: 1.2;
 }
 
-
-
-
-
-
-
-
-
 .CORONA_CHAIR {
     font-size: 20px;
     color: rgb(0, 0, 0);
@@ -130,7 +118,6 @@
     font-weight: 600;
     line-height: 1;
 }
-
 .NEW {
     font-size: 16px;
     font-weight: 600;
@@ -144,9 +131,6 @@
     -ms-transform:rotate(-50deg); /* IE 9 */
     -webkit-transform:rotate(-50deg); /* Opera, Chrome, and Safari */
 }
-
-
-
 
 
 .CALL_US_NOW {
@@ -238,4 +222,30 @@
     color: rgb(250, 250, 250);
     font-weight: 600;
 
+}
+
+@media screen and (max-width: 830px) {
+    .Welcome_To_Pahu_Design{
+
+        font-size: 14px;
+    }
+
+    .YOU_ARE_IN_GOOD_HAND_WITH_US{
+        font-size: 30px;
+    }
+
+    .WhyChooseUsTop1{
+        font-size: 15px;
+        text-align: right;
+    }
+
+    .WhyChooseUsTop2{
+        font-size: 12px;
+    }
+    .OurDesignerFont
+    {
+        font-size: 20px;}
+    .BlockTextCenter
+    {
+        font-size: 26px;}
 }

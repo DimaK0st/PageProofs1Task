@@ -47,7 +47,10 @@ i.fa {
     right:72px;
 }
 
-.item {
+.item {text-align: center;
 }
 
-
+@media screen and (max-width: 830px) {
+.sliderCenter {
+    margin-top: 25px;
+}}

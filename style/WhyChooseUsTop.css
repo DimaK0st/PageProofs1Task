@@ -41,7 +41,27 @@
 
 
 @media screen and (max-width: 830px) {
+    .BlockTextCenter{
+        padding: 0 2px 20px 2px;
 
+    }
+    .WhyChooseUsArray{
+        display: flex;
+        flex-direction: column;
+    }
+    #WhyChooseUsTop{
+        height: auto;
+    }
+    .WhyChooseUsArray1_1TopText, .WhyChooseUsArray1_1DownText{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+    }
+    .BlockTextCenter {
+        padding-top: 50px;
+    }
 
-
+    .WhyChooseUsArray {
+        margin-top: 25px;
+    }
 }

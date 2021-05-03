@@ -60,6 +60,10 @@
 
 @media screen and (max-width: 830px) {
 
+    #OurDesigner{
+        padding: 0 2px 0 2px;
+    }
+
     .imageLine {
         margin-left: 5px;
     }

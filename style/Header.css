@@ -1,10 +1,82 @@
+/*header {*/
+/*    background: #181817;*/
+/*    position: fixed;*/
+/*    top: 0;*/
+/*    right: 0;*/
+/*    left: 0;*/
+/*    margin: 0 auto;z-index: 999999;*/
+/*}*/
+
+/*.headerMain {*/
+/*    max-width: 1200px;*/
+/*    height: 100px;*/
+/*    width: 100%;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    margin: auto;*/
+/*}*/
+
+/*.headerMain .headerLogo {*/
+/*    flex-basis: 200px;*/
+/*}*/
+
+/*.headerMain .headerMenu {*/
+/*    flex-basis: 100%;*/
+/*    height: 100%;*/
+/*}*/
+
+/*.headerMain .headerImage {*/
+/*    flex-basis: 200px;*/
+/*    display: flex;*/
+/*    justify-content: space-around;*/
+/*}*/
+
+/*header ul {*/
+/*    list-style: none; !*убираем маркеры списка*!*/
+/*    display: flex;*/
+/*    justify-content: space-around;*/
+/*    align-items: center;*/
+/*    position: relative;*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    align-content: baseline;*/
+/*}*/
+
+/*header li {*/
+/*    display: inline-block;*/
+/*    height: 100%;*/
+/*}*/
+
+/*.headerMenu a {*/
+/*    text-decoration: none; !*убираем подчеркивание текста ссылок*!*/
+/*    color: #fefefe;*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    flex-grow: 1;*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    transition: background-color .3s, filter .3s;*/
+/*}*/
+
+/*section {*/
+/*    margin: 10px 0 10px 0;*/
+/*}*/
+
+/*.headerMenu a:hover {*/
+/*    box-sizing: border-box;*/
+/*    border-bottom-width: 4px; !* Толщина линии внизу *!*/
+/*    border-bottom-style: solid; !* Стиль линии внизу *!*/
+/*    border-bottom-color: #ffce76; !* Цвет линии внизу *!*/
+/*}*/
 header {
     background: #181817;
     position: fixed;
     top: 0;
     right: 0;
     left: 0;
-    margin: 0 auto;z-index: 999999;
+    margin: 0 auto;
+    z-index: 999999;
 }
 
 .headerMain {
@@ -18,7 +90,7 @@ header {
 }
 
 .headerMain .headerLogo {
-    flex-basis: 200px;
+    flex-basis: auto;
 }
 
 .headerMain .headerMenu {
@@ -32,40 +104,128 @@ header {
     justify-content: space-around;
 }
 
-header ul {
-    list-style: none; /*убираем маркеры списка*/
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    position: relative;
-    width: 100%;
-    height: 100%;
-    align-content: baseline;
+
+#menu-checkbox {
+    /* чекбокс скрыт */
+    position: absolute;
+    clip: rect(1px, 1px, 1px, 1px);
 }
 
-header li {
+.main-menu {
+    /* пункты меню скрыты */
+    position: absolute;
+    clip: rect(1px, 1px, 1px, 1px);
+}
+
+.main-menu li {
+    /* пункты меню расположены вертикально */
+    /* каждый имеет ширину 100% */
+    display: block;
+}
+
+.main-menu a {
+    /* немного стилизуем ссылки */
+    color: #ffce76;
+    background: #181817;
+    text-align: center;
+    opacity: 80%;
+    display: block;
+    border-bottom: 1px solid #ffce76;
+    padding: .5em;
+    text-decoration: none;
+}
+
+.main-menu a:hover {
+    text-decoration: underline;
+}
+
+.toggle-button {
+
+    vertical-align:middle;text-align:center;
+    position: relative;
+    display: flex;
+    align-items: center;
+    /* не забываем явно указать каким должен быть курсор */
+    cursor: pointer;
+    color: #fff;
+    height: 100px;
+    width: auto;
+    text-decoration: underline #ffce76;
+}
+
+.toggle-button:after {
+    /* получаем данные из атрибута data-open в html */
+    content: attr(data-open);
+    display: block;
+    margin: auto;
+}
+
+#menu-checkbox:checked + nav[role="navigation"] .main-menu {
+    /* когда чекбокс активен меню становится видимым */
+    position: static;
+}
+
+#menu-checkbox:checked + nav[role="navigation"] .toggle-button:after {
+    content: attr(data-close);
+}
+
+
+@media screen and (min-width: 640px) {
+    /* Menu  */
+    .headerMain .headerLogo {
+        flex-basis: 200px;
+    }
+    .toggle-button {
+        /* label скрыт */
+        position: absolute;
+        clip: rect(1px, 1px, 1px, 1px);
+    }
+
+    .main-menu {
+        color: #fff;
+        list-style: none; /*убираем маркеры списка*/
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        position: relative;
+        width: 100%;
+        height: 100px;
+        flex-basis: 100%;
+        align-content: baseline;
+    }
+
+    .main-menu {
+        /* меню отображается */
+        margin: auto;
+        flex-basis: 100%;
+    }
+
+
+.main-menu li {
     display: inline-block;
     height: 100%;
 }
 
-.headerMenu a {
+.main-menu a {
+
+    border-bottom: none;
     text-decoration: none; /*убираем подчеркивание текста ссылок*/
     color: #fefefe;
     display: flex;
     align-items: center;
+    padding: 0;
     flex-grow: 1;
     width: 100%;
     height: 100%;
     transition: background-color .3s, filter .3s;
 }
 
-section {
-    margin: 10px 0 10px 0;
-}
-
-.headerMenu a:hover {
+.main-menu a:hover {
+    text-decoration: none;
     box-sizing: border-box;
     border-bottom-width: 4px; /* Толщина линии внизу */
     border-bottom-style: solid; /* Стиль линии внизу */
     border-bottom-color: #ffce76; /* Цвет линии внизу */
+}
+
 }
