@@ -88,15 +88,29 @@
     display: flex;
     flex-direction: column;
 }
+.BlockImageCenter{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
 
+}
 
+.Rectangle{
+    margin: 0 5px 0 5px;
+}
 
 
 @media screen and (max-width: 830px) {
 
-
+    .Shape{
+        width: 130px ;
+    }
+    #OurCollection{
+        padding: 0 2px 0 2px;}
     .ourCollectionArray {
-
+        padding: 0 2px 0 2px;
         justify-content: space-evenly;
     }
 
