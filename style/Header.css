@@ -58,6 +58,30 @@ header {
     padding: .5em;
     text-decoration: none;
 }
+.headerImage{
+    position: relative;
+}
+
+.headerImageBasketArray{
+    position: relative;
+}
+.headerImageBasket{
+    position: relative;
+}
+
+.headerImageEllipse{
+    position: absolute;
+    top: -15px;
+    right: 0px;
+
+}
+
+.headerImageNumber{
+    position: absolute;
+    top: -15px;
+    right: 6px;
+
+}
 
 .main-menu a:hover {
     text-decoration: underline;
@@ -65,7 +89,8 @@ header {
 
 .toggle-button {
 
-    vertical-align:middle;text-align:center;
+    vertical-align: middle;
+    text-align: center;
     position: relative;
     display: flex;
     align-items: center;
@@ -95,9 +120,11 @@ header {
     .headerMain {
         height: 100px;
     }
+
     .headerMain .headerLogo {
         flex-basis: 200px;
     }
+
     .toggle-button {
         position: absolute;
         clip: rect(1px, 1px, 1px, 1px);
@@ -122,31 +149,31 @@ header {
     }
 
 
-.main-menu li {
-    display: inline-block;
-    height: 100%;
-}
+    .main-menu li {
+        display: inline-block;
+        height: 100%;
+    }
 
-.main-menu a {
+    .main-menu a {
 
-    border-bottom: none;
-    text-decoration: none;
-    color: #fefefe;
-    display: flex;
-    align-items: center;
-    padding: 0;
-    flex-grow: 1;
-    width: 100%;
-    height: 100%;
-    transition: background-color .3s, filter .3s;
-}
+        border-bottom: none;
+        text-decoration: none;
+        color: #fefefe;
+        display: flex;
+        align-items: center;
+        padding: 0;
+        flex-grow: 1;
+        width: 100%;
+        height: 100%;
+        transition: background-color .3s, filter .3s;
+    }
 
-.main-menu a:hover {
-    text-decoration: none;
-    box-sizing: border-box;
-    border-bottom-width: 4px;
-    border-bottom-style: solid;
-    border-bottom-color: #ffce76;
-}
+    .main-menu a:hover {
+        text-decoration: none;
+        box-sizing: border-box;
+        border-bottom-width: 4px;
+        border-bottom-style: solid;
+        border-bottom-color: #ffce76;
+    }
 
 }
