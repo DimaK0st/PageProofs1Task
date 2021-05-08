@@ -33,7 +33,6 @@ header {
     justify-content: space-around;
 }
 
-
 #menu-checkbox {
     position: absolute;
     clip: rect(1px, 1px, 1px, 1px);
@@ -58,25 +57,27 @@ header {
     padding: .5em;
     text-decoration: none;
 }
-.headerImage{
+
+.headerImage {
     position: relative;
 }
 
-.headerImageBasketArray{
-    position: relative;
-}
-.headerImageBasket{
+.headerImageBasketArray {
     position: relative;
 }
 
-.headerImageEllipse{
+.headerImageBasket {
+    position: relative;
+}
+
+.headerImageEllipse {
     position: absolute;
     top: -15px;
     right: 0px;
 
 }
 
-.headerImageNumber{
+.headerImageNumber {
     position: absolute;
     top: -15px;
     right: 6px;
@@ -114,7 +115,6 @@ header {
 #menu-checkbox:checked + nav[role="navigation"] .toggle-button:after {
     content: attr(data-close);
 }
-
 
 @media screen and (min-width: 640px) {
     .headerMain {
@@ -175,5 +175,4 @@ header {
         border-bottom-style: solid;
         border-bottom-color: #ffce76;
     }
-
 }

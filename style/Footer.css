@@ -1,5 +1,4 @@
 footer {
-
     width: 100%;
     background: #181817;
     margin: 0 auto;
@@ -16,9 +15,9 @@ footer {
 
 .leftLine {
     box-sizing: border-box;
-    border-left-width: 4px; /* Толщина линии внизу */
-    border-left-style: solid; /* Стиль линии внизу */
-    border-left-color: #ffce76; /* Цвет линии внизу */
+    border-left-width: 4px;
+    border-left-style: solid;
+    border-left-color: #ffce76;
 }
 
 .blockFooter {
@@ -37,7 +36,6 @@ footer {
     justify-content: space-between;
     flex-wrap: wrap;
 }
-
 
 .blockFooter11 {
     margin: auto 0;
@@ -85,17 +83,12 @@ footer {
     border: none;
 }
 
-
-
 @media screen and (max-width: 830px) {
-
-
 
     .blockCenter{
         min-width: 276px;
         margin: 10px 0 10px 0;
     }
-
 
     .blockFooter1, .blockFooter2 {
         display: flex;
@@ -106,7 +99,6 @@ footer {
     .blockFooter {
         height: auto;
     }
-
 
 }
 

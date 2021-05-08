@@ -1,3 +1,7 @@
+.font-popins {
+    font-family: 'Poppins';
+}
+
 .MENU {
     font-size: 14px;
     font-family: "Poppins";
@@ -8,14 +12,12 @@
 .Welcome_To_Pahu_Design {
     margin-left: 20px;
     font-size: 25px;
-    font-family: "Poppins";
     color: rgb(255, 255, 255);
     line-height: 0.76;
 }
 
 .YOU_ARE_IN_GOOD_HAND_WITH_US {
     font-size: 60px;
-    font-family: "Poppins";
     color: rgb(255, 255, 255);
     font-weight: 700;
     line-height: 1.2;
@@ -39,9 +41,10 @@
     font-weight: 600;
 }
 
-.WhyChooseUsLeft{
+.WhyChooseUsLeft {
     text-align: right;
 }
+
 .WhyChooseUsTop2 {
     font-size: 14px;
     font-family: "Poppins";
@@ -68,29 +71,25 @@
 
 .DESIGN_BY_JARNET_PARK_TREND_2017___ {
     font-size: 30px;
-    font-family: "Poppins";
     color: rgb(89, 155, 167);
     font-weight: 600;
     line-height: 1.2;
 }
-
 
 .VIEW_DEATAIL2 {
     font-size: 14px;
     margin-top: 25px;
-    font-family: "Poppins";
     color: rgb(89, 155, 167);
     line-height: 1.2;
 }
 
-
 .CERAMICS_WM_MUNOZ___ {
     font-size: 30px;
-    font-family: "Poppins";
     color: rgb(53, 43, 48);
     font-weight: 600;
     line-height: 1.2;
 }
+
 .VIEW_DEATAIL3 {
     margin-top: 25px;
     font-size: 14px;
@@ -105,12 +104,11 @@
     font-weight: 600;
     line-height: 1;
 }
+
 .Printed_ {
     margin-top: 20px;
     font-size: 14px;
-    font-family: "Poppins";
     color: rgb(109, 109, 109);
-
     line-height: 1;
     font-weight: 400;
 }
@@ -119,11 +117,11 @@
     margin-top: 30px;
     margin-bottom: 25px;
     font-size: 27px;
-    font-family: "Poppins";
     color: rgb(0, 0, 0);
     font-weight: 600;
     line-height: 1;
 }
+
 .NEW {
     font-size: 16px;
     font-weight: 600;
@@ -133,20 +131,16 @@
     height: 30px;
     line-height: 1;
     color: white;
-    transform:rotate(-50deg);
-    -ms-transform:rotate(-50deg); /* IE 9 */
-    -webkit-transform:rotate(-50deg); /* Opera, Chrome, and Safari */
+    transform: rotate(-50deg);
+    -ms-transform: rotate(-50deg); /* IE 9 */
+    -webkit-transform: rotate(-50deg); /* Opera, Chrome, and Safari */
 }
-
 
 .CALL_US_NOW {
     font-size: 25px;
     color: rgb(255, 206, 118);
     font-weight: 600;
     line-height: 1.2;
-    -moz-transform: matrix(1.49047175806413, 0, 0, 1.51889268773988, 0, 0);
-    -webkit-transform: matrix(1.49047175806413, 0, 0, 1.51889268773988, 0, 0);
-    -ms-transform: matrix(1.49047175806413, 0, 0, 1.51889268773988, 0, 0);
 }
 
 .Office_telephone, .Hotline {
@@ -161,9 +155,6 @@
     color: rgb(255, 255, 255);
     font-weight: 600;
     line-height: 0.7;
-    -moz-transform: matrix(1.49047175806413, 0, 0, 1.51889268773988, 0, 0);
-    -webkit-transform: matrix(1.49047175806413, 0, 0, 1.51889268773988, 0, 0);
-    -ms-transform: matrix(1.49047175806413, 0, 0, 1.51889268773988, 0, 0);
 }
 
 .Monday_Friday {
@@ -178,9 +169,6 @@
     color: rgb(255, 255, 255);
     font-weight: 600;
     line-height: 0.7;
-    -moz-transform: matrix( 1.49047175806413,0,0,1.51889268773988,0,0);
-    -webkit-transform: matrix( 1.49047175806413,0,0,1.51889268773988,0,0);
-    -ms-transform: matrix( 1.49047175806413,0,0,1.51889268773988,0,0);
 }
 
 .Sign_up_to_ {
@@ -194,7 +182,6 @@
     color: rgba(255, 255, 255, 0.502);
     line-height: 1.2;
 }
-
 
 .BlockTextCenter {
     font-size: 40px;
@@ -215,43 +202,47 @@
     color: rgb(0, 0, 0);
     font-weight: 600;
 }
-.BlockFromOurBlogArrayText1{
+
+.BlockFromOurBlogArrayText1 {
     font-size: 20px;
     color: rgb(0, 0, 0);
-    font-weight: 600;}
-.BlockFromOurBlogArrayText2{
+    font-weight: 600;
+}
+
+.BlockFromOurBlogArrayText2 {
     font-size: 14px;
-    color: rgba(49, 48, 45, 0.702);}
+    color: rgba(49, 48, 45, 0.702);
+}
 
 .OurDesignerFont {
     font-size: 30px;
     color: rgb(250, 250, 250);
     font-weight: 600;
-
 }
 
 @media screen and (max-width: 830px) {
-    .Welcome_To_Pahu_Design{
-
+    .Welcome_To_Pahu_Design {
         font-size: 14px;
     }
 
-    .YOU_ARE_IN_GOOD_HAND_WITH_US{
+    .YOU_ARE_IN_GOOD_HAND_WITH_US {
         font-size: 30px;
     }
 
-    .WhyChooseUsTop1{
+    .WhyChooseUsTop1 {
         font-size: 15px;
         text-align: right;
     }
 
-    .WhyChooseUsTop2{
+    .WhyChooseUsTop2 {
         font-size: 12px;
     }
-    .OurDesignerFont
-    {
-        font-size: 20px;}
-    .BlockTextCenter
-    {
-        font-size: 26px;}
+
+    .OurDesignerFont {
+        font-size: 20px;
+    }
+
+    .BlockTextCenter {
+        font-size: 26px;
+    }
 }

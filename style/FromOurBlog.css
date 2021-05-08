@@ -1,34 +1,29 @@
-
-
-#FromOurBlog{
-
-    /*height: 860px;*/
+#FromOurBlog {
     max-width: 1200px;
     margin: auto;
 }
 
-
-.BlockFromOurBlogArray{
+.BlockFromOurBlogArray {
     padding: 75px 0 115px 0;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.BlockFromOurBlogArray1{
+.BlockFromOurBlogArray1 {
     width: 372px;
     display: flex;
     flex-direction: column;
     background: #fefefe;
 }
-.BlockFromOurBlogArrayDown{
 
+.BlockFromOurBlogArrayDown {
     display: flex;
     flex-direction: column;
     margin: 25px;
 }
 
-.BlockFromOurBlogArrayButton{
+.BlockFromOurBlogArrayButton {
     background: #ffce76;
     font-size: 15px;
     border: none;
@@ -36,45 +31,39 @@
     height: 50px;
 }
 
-.BlockFromOurBlogArray1 img {
-}
-.BlockFromOurBlogArrayText{
+.BlockFromOurBlogArrayText {
     display: flex;
     flex-direction: column;
-
 }
 
-.BlockFromOurBlogArrayText1{
+.BlockFromOurBlogArrayText1 {
     margin: 10px 0 0 0;
 }
 
-.BlockFromOurBlogArrayText2{
+.BlockFromOurBlogArrayText2 {
     margin: 20px 0 20px 0;
 }
 
-
-
-
-
-
-
 @media screen and (max-width: 830px) {
 
-    #FromOurBlog{
+    #FromOurBlog {
         padding: 0 2px 0 2px;
     }
-    .BlockFromOurBlogArray{
+
+    .BlockFromOurBlogArray {
         flex-direction: column;
         align-items: center;
         justify-content: center;
         margin: auto;
     }
-.BlockFromOurBlogArrayImage {
-    text-align: center;
-}
+
+    .BlockFromOurBlogArrayImage {
+        text-align: center;
+    }
 
     .BlockFromOurBlogArray1 {
-        width: auto;}
+        width: auto;
+    }
 
 
     .BlockFromOurBlogArray {

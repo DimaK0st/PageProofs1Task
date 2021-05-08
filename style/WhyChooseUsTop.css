@@ -1,4 +1,4 @@
-#WhyChooseUsTop{
+#WhyChooseUsTop {
     width: 100%;
     max-width: 1600px;
     height: 750px;
@@ -6,63 +6,66 @@
     background: #181817;
 }
 
-.WhyChooseUsArray{
+.WhyChooseUsArray {
     margin-top: 120px;
 }
 
-.WhyChooseUsArray1_1TopText, .WhyChooseUsArray1_1DownText{
+.WhyChooseUsArray1_1TopText, .WhyChooseUsArray1_1DownText {
     display: flex;
     flex-direction: column;
     width: 300px;
 }
 
-.WhyChooseUsArray1_1Top, .WhyChooseUsArray1_1Down{
+.WhyChooseUsArray1_1Top, .WhyChooseUsArray1_1Down {
     display: flex;
     flex-direction: row;
 }
 
-.WhyChooseUsArrayMargLeft{
+.WhyChooseUsArrayMargLeft {
     margin-left: 15px;
 }
-.WhyChooseUsArrayMargRigth{
+
+.WhyChooseUsArrayMargRigth {
     margin-right: 15px;
 
 }
 
-.margText12{
+.margText12 {
     margin-top: 65px;
 }
 
-
-.WhyChooseUsArray{
+.WhyChooseUsArray {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
-
 @media screen and (max-width: 830px) {
-    .BlockTextCenter{
+    .BlockTextCenter {
         padding: 0 2px 20px 2px;
 
     }
-    .WhyChooseUsArray{
+
+    .WhyChooseUsArray {
         display: flex;
         flex-direction: column;
         align-items: center;
         margin-top: 25px;
         padding-bottom: 20px;
     }
-    #WhyChooseUsTop{
+
+    #WhyChooseUsTop {
 
         height: auto;
         margin: auto;
     }
-    .WhyChooseUsArray1_1TopText, .WhyChooseUsArray1_1DownText{
+
+    .WhyChooseUsArray1_1TopText, .WhyChooseUsArray1_1DownText {
         display: flex;
         flex-direction: column;
         width: auto;
     }
+
     .BlockTextCenter {
         padding-top: 50px;
     }

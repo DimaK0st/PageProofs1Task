@@ -1,19 +1,23 @@
-#OurProject{max-width: 1600px;
+#OurProject {
+    max-width: 1600px;
     margin: auto;
 }
+
 .prod-slider-container {
     position: relative;
     font-family: font-awesome;
 }
-.sliderCenter{
-margin-top: 110px;
+
+.sliderCenter {
+    margin-top: 110px;
 }
 
 .owl-buttons {
-    display:flex;
+    display: flex;
     width: 100%;
     justify-content: space-between;
 }
+
 .owl-prev, .owl-next {
     position: absolute;
 }
@@ -23,34 +27,36 @@ i.fa {
     position: absolute;
     font-size: 60px;
     padding-top: 8px;
-    height:64px;
-    width:72px;
+    height: 64px;
+    width: 72px;
     color: #ffffff;
     background: #848484;
-    border-radius:50%;
-    display:table-cell;
-    top		: -540px;
+    border-radius: 50%;
+    display: table-cell;
+    top: -540px;
 }
 
 .owl-prev, .owl-next {
-    background-color:transparent;
+    background-color: transparent;
     border: 0px none transparent;
     width: 0px;
     height: 0px;
 }
 
 .owl-perv {
-    left:0;
+    left: 0;
 }
 
-.owl-next  {
-    right:72px;
+.owl-next {
+    right: 72px;
 }
 
-.item {text-align: center;
+.item {
+    text-align: center;
 }
 
 @media screen and (max-width: 830px) {
-.sliderCenter {
-    margin-top: 25px;
-}}
+    .sliderCenter {
+        margin-top: 25px;
+    }
+}
