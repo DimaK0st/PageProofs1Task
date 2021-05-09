@@ -9,14 +9,14 @@
     font-weight: 600;
 }
 
-.Welcome_To_Pahu_Design {
+.welcome-to-pahu-design {
     margin-left: 20px;
     font-size: 25px;
     color: rgb(255, 255, 255);
     line-height: 0.76;
 }
 
-.YOU_ARE_IN_GOOD_HAND_WITH_US {
+.you-are-in-good-hand-with-us {
     font-size: 60px;
     color: rgb(255, 255, 255);
     font-weight: 700;
@@ -32,7 +32,7 @@
 }
 
 
-.WhyChooseUsTop1 {
+.why-choose-us-top1 {
     font-size: 20px;
     margin-bottom: 20px;
     font-family: "Poppins";
@@ -41,18 +41,18 @@
     font-weight: 600;
 }
 
-.WhyChooseUsLeft {
+.why-choose-us-left {
     text-align: right;
 }
 
-.WhyChooseUsTop2 {
+.why-choose-us-top2 {
     font-size: 14px;
     font-family: "Poppins";
     color: rgb(255, 255, 255);
     line-height: 1.488;
 }
 
-.PATIO_FURNITURE_VIETNAM__ {
+.patio-furniture-vietnam {
     font-size: 30px;
     font-family: "Poppins";
     color: rgb(116, 157, 38);
@@ -60,7 +60,7 @@
     font-weight: 600;
 }
 
-.VIEW_DEATAIL {
+.view-deatail {
     margin-top: 25px;
     font-size: 14px;
     line-height: 1.2;
@@ -69,28 +69,28 @@
     font-weight: 600;
 }
 
-.DESIGN_BY_JARNET_PARK_TREND_2017___ {
+.design-by-jarnet-park-trend-2017 {
     font-size: 30px;
     color: rgb(89, 155, 167);
     font-weight: 600;
     line-height: 1.2;
 }
 
-.VIEW_DEATAIL2 {
+.view-deatail2 {
     font-size: 14px;
     margin-top: 25px;
     color: rgb(89, 155, 167);
     line-height: 1.2;
 }
 
-.CERAMICS_WM_MUNOZ___ {
+.ceramics-wm-munoz {
     font-size: 30px;
     color: rgb(53, 43, 48);
     font-weight: 600;
     line-height: 1.2;
 }
 
-.VIEW_DEATAIL3 {
+.view-deatail3 {
     margin-top: 25px;
     font-size: 14px;
     font-family: "Lato";
@@ -98,14 +98,14 @@
     line-height: 1.2;
 }
 
-.CORONA_CHAIR {
+.corona-chair {
     font-size: 20px;
     color: rgb(0, 0, 0);
     font-weight: 600;
     line-height: 1;
 }
 
-.Printed_ {
+.printed {
     margin-top: 20px;
     font-size: 14px;
     color: rgb(109, 109, 109);
@@ -113,7 +113,7 @@
     font-weight: 400;
 }
 
-._14_86 {
+.text-14-86 {
     margin-top: 30px;
     margin-bottom: 25px;
     font-size: 27px;
@@ -136,54 +136,54 @@
     -webkit-transform: rotate(-50deg); /* Opera, Chrome, and Safari */
 }
 
-.CALL_US_NOW {
+.call-us-now {
     font-size: 25px;
     color: rgb(255, 206, 118);
     font-weight: 600;
     line-height: 1.2;
 }
 
-.Office_telephone, .Hotline {
+.office-telephone, .Hotline {
     font-size: 14px;
     font-weight: 400;
     color: rgb(255, 255, 255);
     line-height: 1.714;
 }
 
-.Hours_work {
+.hours-work {
     font-size: 30px;
     color: rgb(255, 255, 255);
     font-weight: 600;
     line-height: 0.7;
 }
 
-.Monday_Friday {
+.monday-friday {
     font-size: 14px;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.502);
     line-height: 1.714;
 }
 
-.Newsletter {
+.news-letter {
     font-size: 30px;
     color: rgb(255, 255, 255);
     font-weight: 600;
     line-height: 0.7;
 }
 
-.Sign_up_to_ {
+.sign-up-to {
     font-size: 14px;
     color: rgba(255, 255, 255, 0.502);
     line-height: 1.286;
 }
 
-.Enter_your_email___ {
+.enter-your-email {
     font-size: 14px;
     color: rgba(255, 255, 255, 0.502);
     line-height: 1.2;
 }
 
-.BlockTextCenter {
+.block-text-center {
     font-size: 40px;
     color: rgb(24, 24, 23);
     font-weight: 600;
@@ -197,52 +197,52 @@
     align-items: center;
 }
 
-.READ_MORE {
+.read-more {
     font-size: 14px;
     color: rgb(0, 0, 0);
     font-weight: 600;
 }
 
-.BlockFromOurBlogArrayText1 {
+.block-from-our-blog-array-text1 {
     font-size: 20px;
     color: rgb(0, 0, 0);
     font-weight: 600;
 }
 
-.BlockFromOurBlogArrayText2 {
+.block-from-our-blog-array-text2 {
     font-size: 14px;
     color: rgba(49, 48, 45, 0.702);
 }
 
-.OurDesignerFont {
+.our-designer-font {
     font-size: 30px;
     color: rgb(250, 250, 250);
     font-weight: 600;
 }
 
 @media screen and (max-width: 830px) {
-    .Welcome_To_Pahu_Design {
+    .welcome-to-pahu-design {
         font-size: 14px;
     }
 
-    .YOU_ARE_IN_GOOD_HAND_WITH_US {
+    .you-are-in-good-hand-with-us {
         font-size: 30px;
     }
 
-    .WhyChooseUsTop1 {
+    .why-choose-us-top1 {
         font-size: 15px;
         text-align: right;
     }
 
-    .WhyChooseUsTop2 {
+    .why-choose-us-top2 {
         font-size: 12px;
     }
 
-    .OurDesignerFont {
+    .our-designer-font {
         font-size: 20px;
     }
 
-    .BlockTextCenter {
+    .block-text-center {
         font-size: 26px;
     }
 }

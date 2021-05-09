@@ -1,4 +1,4 @@
-#WhyChooseUsDown {
+#whyChooseUsDown {
     margin: auto;
     max-width: 1600px;
 }
@@ -8,11 +8,11 @@ img {
     max-height: 100%;
 }
 
-.WhyChooseUsDownArray1 {
+.why-choose-us-down-array1 {
     position: relative;
 }
 
-.WhyChooseUsDownArray1_1 {
+.why-choose-us-down-array1-1 {
     left: 75px;
     top: 75px;
     display: flex;
@@ -21,11 +21,11 @@ img {
     z-index: 10;
 }
 
-.WhyChooseUsDownArray1_2 {
+.why-choose-us-down-array1-2 {
     position: relative;
 }
 
-.WhyChooseUsDownArray2_3 {
+.why-choose-us-down-array2-3 {
     left: 55px;
     top: 45px;
     display: flex;
@@ -34,7 +34,7 @@ img {
     z-index: 10;
 }
 
-.WhyChooseUsDownArray2_4 {
+.why-choose-us-down-array2-4 {
     left: 50px;
     top: 50px;
     display: flex;
@@ -43,22 +43,22 @@ img {
     z-index: 10;
 }
 
-.WhyChooseUsDownArrayTop2_3 {
+.why-choose-us-down-array-top2-3 {
     position: relative;
 }
 
-.WhyChooseUsDownArrayDown2_4 {
+.why-choose-us-down-array-down2-4 {
     position: relative;
 }
 
-.WhyChooseUsDownArrayTop {
+.why-choose-us-down-array-top {
     display: flex;
     flex-direction: row;
     max-height: 340px;
     position: relative;
 }
 
-.WhyChooseUsDownArrayDown {
+.why-choose-us-down-array-down {
     display: flex;
     flex-direction: row;
     height: 100%;
@@ -66,15 +66,15 @@ img {
     position: relative;
 }
 
-.WhyChooseUsDownArray2 div {
+.why-choose-us-down-array2 div {
 }
 
-.WhyChooseUsDownArray {
+.why-choose-us-down-array {
     display: flex;
     flex-direction: row;
 }
 
-.WhyChooseUsDownArray2 {
+.why-choose-us-down-array2 {
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -82,31 +82,31 @@ img {
     padding: 0;
 }
 
-.WhyChooseUsDownMobileArray {
+.why-choose-us-down-mobile-array {
     display: none
 }
 
 
 @media screen and (max-width: 830px) {
-    #WhyChooseUsDown {
+    #whyChooseUsDown {
         height: auto;
     }
 
-    .WhyChooseUsDownArray {
+    .why-choose-us-down-array {
         display: none
     }
 
-    .WhyChooseUsDownMobileArray img {
+    .why-choose-us-down-mobile-array img {
         height: 100%;
         max-width: 100%;
         max-height: 100%;
     }
 
-    .WhyChooseUsDownMobileArray1 {
+    .why-choose-us-down-mobile-array1 {
         position: relative;
     }
 
-    .WhyChooseUsDownMobileArray1_1 {
+    .why-choose-us-down-mobile-array1-1 {
         left: 10%;
         top: 10%;
         display: flex;
@@ -115,11 +115,11 @@ img {
         z-index: 10;
     }
 
-    .WhyChooseUsDownMobileArray1_2 {
+    .why-choose-us-down-mobile-array1-2 {
         position: relative;
     }
 
-    .WhyChooseUsDownMobileArray2_3 {
+    .why-choose-us-down-mobile-array2-3 {
         left: 5%;
         top: 10%;
         display: flex;
@@ -128,7 +128,7 @@ img {
         z-index: 10;
     }
 
-    .WhyChooseUsDownMobileArray2_4 {
+    .why-choose-us-down-mobile-array2-4 {
         left: 5%;
         top: 10%;
         display: flex;
@@ -137,42 +137,42 @@ img {
         z-index: 10;
     }
 
-    .WhyChooseUsDownMobileArrayTop2_3 {
+    .why-choose-us-down-mobile-array-top2-3 {
         position: relative;
     }
 
-    .WhyChooseUsDownMobileArrayDown2_4 {
+    .why-choose-us-down-mobile-array-down2-4 {
         position: relative;
     }
 
-    .WhyChooseUsDownMobileArrayTop {
+    .why-choose-us-down-mobile-array-top {
         display: flex;
         flex-direction: column;
         max-height: 340px;
         position: relative;
     }
 
-    .WhyChooseUsDownMobileArrayDown {
+    .why-choose-us-down-mobile-array-down {
         display: flex;
         flex-direction: column;
         height: 100%;
         position: relative;
     }
 
-    .WhyChooseUsDownMobileArray2 div {
+    .why-choose-us-down-mobile-array2 div {
     }
 
-    .WhyChooseUsDownMobileArray {
+    .why-choose-us-down-mobile-array {
         display: flex;
         flex-direction: row;
     }
 
-    .WhyChooseUsDownMobileArray {
+    .why-choose-us-down-mobile-array {
         display: flex;
         flex-direction: column;
     }
 
-    .WhyChooseUsDownMobileArrays {
+    .why-choose-us-down-mobile-arrays {
         height: 100%;
         display: flex;
         flex-direction: row;
@@ -182,11 +182,11 @@ img {
 }
 
 @media screen and (max-width: 480px) {
-    .PATIO_FURNITURE_VIETNAM__, .CERAMICS_WM_MUNOZ___, .DESIGN_BY_JARNET_PARK_TREND_2017___ {
+    .patio-furniture-vietnam, .ceramics-wm-munoz, .design-by-jarnet-park-trend-2017 {
         font-size: 16px;
     }
 
-    .VIEW_DEATAIL, .VIEW_DEATAIL3, .VIEW_DEATAIL2 {
+    .view-deatail, .view-deatail3, .view-deatail2 {
         font-size: 10px;
         margin-top: 10px;
     }

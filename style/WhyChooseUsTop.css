@@ -1,4 +1,4 @@
-#WhyChooseUsTop {
+#whyChooseUsTop {
     width: 100%;
     max-width: 1600px;
     height: 750px;
@@ -6,47 +6,47 @@
     background: #181817;
 }
 
-.WhyChooseUsArray {
+.why-choose-us-array {
     margin-top: 120px;
 }
 
-.WhyChooseUsArray1_1TopText, .WhyChooseUsArray1_1DownText {
+.why-choose-us-array1-1-top-text, .why-choose-us-array1-1-down-text {
     display: flex;
     flex-direction: column;
     width: 300px;
 }
 
-.WhyChooseUsArray1_1Top, .WhyChooseUsArray1_1Down {
+.why-choose-us-array1-1-top, .why-choose-us-array1-1-down {
     display: flex;
     flex-direction: row;
 }
 
-.WhyChooseUsArrayMargLeft {
+.why-choose-us-array-marg-left {
     margin-left: 15px;
 }
 
-.WhyChooseUsArrayMargRigth {
+.why-choose-us-array-marg-rigth {
     margin-right: 15px;
 
 }
 
-.margText12 {
+.marg-text12 {
     margin-top: 65px;
 }
 
-.WhyChooseUsArray {
+.why-choose-us-array {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
 @media screen and (max-width: 830px) {
-    .BlockTextCenter {
+    .block-text-center {
         padding: 0 2px 20px 2px;
 
     }
 
-    .WhyChooseUsArray {
+    .why-choose-us-array {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -54,19 +54,19 @@
         padding-bottom: 20px;
     }
 
-    #WhyChooseUsTop {
+    #whyChooseUsTop {
 
         height: auto;
         margin: auto;
     }
 
-    .WhyChooseUsArray1_1TopText, .WhyChooseUsArray1_1DownText {
+    .why-choose-us-array1-1-top-text, .why-choose-us-array1-1-down-text {
         display: flex;
         flex-direction: column;
         width: auto;
     }
 
-    .BlockTextCenter {
+    .block-text-center {
         padding-top: 50px;
     }
 

@@ -1,4 +1,4 @@
-#OurCollection {
+#ourCollection {
     max-width: 1200px;
     min-height: 1200px;
     margin: 0 auto 0 auto;
@@ -6,11 +6,12 @@
 }
 
 
-.BlockTextCenter {
+.block-text-center {
     margin-top: 0;
     padding-top: 100px;
 }
-.ourCollectionArray1 {
+
+.our-collection-array1 {
 
     position: relative;
     z-index: 1;
@@ -20,7 +21,7 @@
 
 }
 
-.ourCollectionArray {
+.our-collection-array {
     position: relative;
     display: flex;
     flex-direction: row;
@@ -29,7 +30,8 @@
     flex-wrap: wrap;
     margin-top: 70px;
 }
-.invisibleBlock{
+
+.invisible-block {
     position: absolute;
     z-index: 10;
     margin-left: -10px;
@@ -43,18 +45,17 @@
     -o-transition: 2s ease; /* Opera */
     box-shadow: 0 0 10px 2px #cdccc6;
 }
-.invisibleBlockSelecter{
+
+.invisible-block-selecter {
     width: 185px;
     height: 60px;
     background: #4b4f51;
     margin: 180px 58px 200px 51px;
-
     border-radius: 25px;
-
 }
-.selectImage{
-    position: relative;
 
+.select-image {
+    position: relative;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -63,18 +64,17 @@
     padding-top: 20px;
 }
 
-.invisibleBlock:hover{
-    opacity: 1;
+.invisible-block:hover {
+    opacity: 0.5;
     transition: opacity 1s;
-
 
 }
 
-
-.imageTriangle{
+.image-triangle {
     position: relative;
     z-index: 3;
 }
+
 .triangle {
     position: absolute;
     z-index: 4;
@@ -84,38 +84,41 @@
     border-right: 56px solid transparent;
 }
 
-.ourCollectionText {
+.our-collection-text {
     margin: 25px;
     display: flex;
     flex-direction: column;
 }
-.BlockImageCenter{
+
+.block-image-center {
     margin-top: 10px;
     display: flex;
     flex-direction: row;
     align-content: center;
     align-items: center;
-
 }
 
-.Rectangle{
+.rectangle {
     margin: 0 5px 0 5px;
 }
 
 
 @media screen and (max-width: 830px) {
 
-    .Shape{
-        width: 130px ;
+    .Shape {
+        width: 130px;
     }
-    #OurCollection{
-        padding: 0 2px 0 2px;}
-    .ourCollectionArray {
+
+    #ourCollection {
+        padding: 0 2px 0 2px;
+    }
+
+    .our-collection-array {
         padding: 0 2px 0 2px;
         justify-content: space-evenly;
     }
 
-    .BlockTextCenter {
+    .block-text-center {
         margin-top: 0;
         padding-top: 30px;
     }

@@ -1,4 +1,4 @@
-#OurDesigner {
+#ourDesigner {
     margin: auto;
     width: auto;
     height: 980px;
@@ -7,11 +7,11 @@
     background: url("../image/OurDesigner/background.png") top center;
 }
 
-.blockImageDesigner {
+.block-image-designer {
     position: relative;
 }
 
-.OurDesignerArray {
+.our-designer-array {
     margin: 130px auto auto auto;
     width: auto;
     max-width: 1200px;
@@ -20,12 +20,12 @@
     justify-content: space-around;
 }
 
-.imageDesigner {
+.image-designer {
     position: relative;
     z-index: 100;
 }
 
-.imageGrid {
+.image-grid {
     position: absolute;
     top: 181px;
     right: 88px;
@@ -33,12 +33,12 @@
     z-index: 1;
 }
 
-.OurDesignerArray1 {
+.our-designer-array1 {
     display: flex;
     flex-direction: column;
 }
 
-.imageTextLine {
+.image-text-line {
     margin-top: 20px;
     display: flex;
     flex-direction: row;
@@ -46,7 +46,7 @@
     align-items: center;
 }
 
-.imageLine {
+.image-line {
     margin-left: 20px;
     width: auto;
     max-width: 185px;
@@ -54,20 +54,20 @@
 
 @media screen and (max-width: 830px) {
 
-    #OurDesigner {
+    #ourDesigner {
         padding: 0 2px 0 2px;
     }
 
-    .imageLine {
+    .image-line {
         margin-left: 5px;
     }
 
-    #OurDesigner {
+    #ourDesigner {
 
         height: auto;
     }
 
-    .OurDesignerArray {
+    .our-designer-array {
         height: auto;
         display: flex;
         flex-direction: column;
