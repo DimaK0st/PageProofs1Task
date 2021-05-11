@@ -110,7 +110,7 @@
 }
 
 @media screen and (max-width: 1120px) {
-    .our-collection-array{
+    .our-collection-array {
         justify-content: space-evenly;
     }
 }
