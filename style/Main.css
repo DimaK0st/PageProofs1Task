@@ -1,29 +1,12 @@
 #Main {
     margin: auto;
     width: auto;
-    height: 880px;
+    height: auto;
     max-width: 1600px;
-    background-size: contain;
-    background: url("../image/Main/Main.png") top center;
 }
 
 .Main {
     position: relative;
-}
-
-.button-left, .button-right {
-    position: absolute;
-    height: 70px;
-    width: 70px;
-    top: 405px;
-}
-
-.button-left {
-    left: 30px;
-}
-
-.button-right {
-    right: 30px;
 }
 
 .main-text {
@@ -38,29 +21,25 @@
     margin-bottom: 60px;
 }
 
+
+.main-slider-text{
+    position: absolute;
+    z-index: 10;
+    top: 340px;
+    left: 200px;
+
+}
+
+.main-slider-img{
+    position: relative;
+    z-index: 1;
+
+}
+
 @media screen and (max-width: 830px) {
-    #Main {
-        background: url("../image/Main/Main.png") no-repeat top center;
-        background-size: cover;
-        height: auto;
-        max-width: 100%;
-    }
 
     .main-text {
         padding: 80px 0 0 11.7%;
-    }
-
-    .button-left, .button-right {
-        height: 40px;
-        top: 105px;
-    }
-
-    .button-right {
-        right: 0px;
-    }
-
-    .button-left {
-        left: 0px;
     }
 
 }
