@@ -2,7 +2,6 @@
     margin: auto;
     width: auto;
     height: auto;
-    max-width: 1600px;
 }
 
 .Main {
@@ -32,6 +31,10 @@
 .main-slider-img {
     position: relative;
     z-index: 1;
+}
+
+.main-slider-img img{
+    width: 100%;
 }
 
 #Main i.fa {

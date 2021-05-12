@@ -1,14 +1,13 @@
 #ourDesigner {
     margin: auto;
     width: auto;
-    height: 980px;
-    max-width: 1600px;
+    height: 1200px;
 }
 .our-designer{
 
     background-size: contain;
     background: url("../image/OurDesigner/background.png") top center;
-    height: 100%;
+    height: calc(100% - 40px);
 }
 .block-image-designer {
     position: relative;

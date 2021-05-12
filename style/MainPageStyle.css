@@ -8,6 +8,9 @@ html {
     height: 100%;
 }
 
+body::-webkit-scrollbar {
+    width: 0;
+}
 body {
     max-width: 1920px;
     background: #f9fafc;
