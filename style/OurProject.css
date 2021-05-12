@@ -22,7 +22,7 @@
     position: absolute;
 }
 
-i.fa {
+#OurProject i.fa {
     cursor: pointer;
     position: absolute;
     font-size: 60px;

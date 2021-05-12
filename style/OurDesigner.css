@@ -3,10 +3,13 @@
     width: auto;
     height: 980px;
     max-width: 1600px;
+}
+.our-designer{
+
     background-size: contain;
     background: url("../image/OurDesigner/background.png") top center;
+    height: 100%;
 }
-
 .block-image-designer {
     position: relative;
 }

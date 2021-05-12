@@ -1,9 +1,9 @@
 $(document).ready(function() {
-    $('.owl-carousel1').owlCarousel({
-        items: 1,
-        autoPlay: 30000,
-        itemsDesktop: [1199, 1],
-        itemsDesktopSmall: [800, 1],
+    $('.owl-carousel').owlCarousel({
+        items: 4,
+        autoPlay: 3000,
+        itemsDesktop: [1199, 3],
+        itemsDesktopSmall: [979, 3],
         navigation: true,
         navigationText: [
             "<i class='fa fa-chevron-left'></i>",
@@ -11,10 +11,12 @@ $(document).ready(function() {
         ]
     });
 });
+
+
 $(document).ready(function() {
-    $('.owl-carousel').owlCarousel({
-        items: 4,
-        autoPlay: 3000,
+    $('.owl-carousel1').owlCarousel({
+        items: 1,
+        autoPlay: 30000,
         itemsDesktop : true,
         itemsDesktopSmall : true,
         itemsTablet: true,
