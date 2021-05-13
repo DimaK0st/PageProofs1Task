@@ -81,7 +81,6 @@ header {
     position: absolute;
     top: -15px;
     right: 6px;
-
 }
 
 .main-menu a:hover {
@@ -89,7 +88,6 @@ header {
 }
 
 .toggle-button {
-
     vertical-align: middle;
     text-align: center;
     position: relative;

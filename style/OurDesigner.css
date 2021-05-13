@@ -3,12 +3,13 @@
     width: auto;
     height: 1200px;
 }
-.our-designer{
 
+.our-designer {
     background-size: contain;
     background: url("../image/OurDesigner/background.png") top center;
     height: calc(100% - 40px);
 }
+
 .block-image-designer {
     position: relative;
 }
@@ -65,7 +66,6 @@
     }
 
     #ourDesigner {
-
         height: auto;
     }
 
