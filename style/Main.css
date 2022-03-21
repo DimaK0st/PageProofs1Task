@@ -42,7 +42,7 @@
     font-size: 60px;
     padding-top: 8px;
     height: 64px;
-    width: 72px;
+    width: 70px;
     color: #ffffff;
     border-radius: 50%;
     border-style: solid;
@@ -120,7 +120,7 @@
 
 @media screen and (max-width: 550px) {
     #Main .owl-next {
-        right: 42px;
+        right: 52px;
     }
 
     #Main i.fa {
